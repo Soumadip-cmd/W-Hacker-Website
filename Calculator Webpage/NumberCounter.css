@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.counter{
+    border: 3px solid black;
+    border-radius: 54px;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    padding: 17px;
+    font-size: 39px;
+    position: relative;
+    left: 48px;
+}
+
+.text{
+    color:red;
+    font-size: 25px;
+}
+#start{
+    margin: 17px 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px 5px;
+    font-size: 21px;
+    cursor: pointer;
+}
+#rese{
+    margin: 17px 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px 5px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.no{
+    margin: 50px 4px;
+    height: 0px;
+    padding: 16px 28px;
+    border: 3px solid brown;
+    border-radius: 31px;
+    width: 279px;
+    font-size: 19px;
+}
+.select{
+    text-align: center;
+    height: 35px;
+    width: 33px;
+    border: 0px solid #c3b5b5;
+    background: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.number_counter{
+    position: relative;
+    top: 231px;
+    left: 574px;
+    width: 426px;
+}

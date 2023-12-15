@@ -1,0 +1,35 @@
+<!-- by using two image move those by button
+2.by button click image size going to big
+3.create a text box where have 4 side different animation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example_Page</title>
+    <link rel="stylesheet" href="img_slider.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <img src="https://source.unsplash.com/random/800x500?Swizerland" class="img" id="img1">
+            <img src="https://source.unsplash.com/random/800x500?USA" class="img" id="img2">
+        </div>
+        <div class="btn_div">
+            <button class="btn prev" id="prev" onclick="prev()">&#8678;</button>
+            <button class="btn next" id="next" onclick="next()">&#8680;</button>
+            <button class="btn big" id="big" onclick="zoom()">Zoom</button>
+            <button class="btn small" id="small" onclick="small()">Small</button>
+        </div>
+
+        <span class="a dot"></span>
+        <span class="b dot"></span>
+        <span class="c dot"></span>
+        <span class="d dot"></span>
+    </main>
+    
+    <script src="img_slider.js"></script>
+</body>
+</html>

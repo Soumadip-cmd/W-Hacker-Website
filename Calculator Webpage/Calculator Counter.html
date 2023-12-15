@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalCulatoR</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="NumberCounter.css">
+</head>
+<body>
+    <main>
+        <div class="calculatorbox">
+            <h1 class="style">Calculator</h1>
+            <div class="digitBox">
+                <input type="number" id="firstBox" class="box1" placeholder="First Number">
+                <select class="operators" id="operators">
+                    <option id="plus" >+</option>
+                    <option id="minus" >-</option>
+                    <option id="multipication" >x</option>
+                    <option id="division" >/</option>
+                </select>
+                <input type="number" id="secondBox" class="box2" placeholder="Second Number">
+            </div>
+            <div class="container">
+                <button id="btn" class="btn_calculate" onclick="calculation()">Calculate</button>
+                <div class="answer">
+                    <span  class="change">Ans:- <span id="ans" class="change"></span></span>
+                </div>
+                <button id="reset" onclick="reset()" class="delete">Reset</button>
+            </div>
+        </div>
+        <div class="number_counter">
+            <input type="number" class="no" placeholder="Enter Counter number" id="no" min="0"><button class="select" id="select_btn" onclick="go()">Go</button>
+            <div class="counter"></div>
+            <button id="start" onclick="start()">Start</button>
+            <button id="rese" onclick="rese()">Reset</button>
+            <span class="text" id="text"></span>
+        </div>
+    </main>
+    <script src="Calculator.js"></script>
+    <script src="NumberCounter.js"></script>
+</body>
+</html>

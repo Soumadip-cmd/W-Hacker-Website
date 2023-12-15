@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe00066;
+}
+.calculatorbox{
+    border: 2px solid black;
+    height: 363.2px;
+    width: 665px;
+    position: relative;
+    left: 466px;
+    top: 148px;
+    background: #f3ae00c7;
+    border-radius: 26px;
+
+}
+.style{
+    text-align: center;
+    text-decoration:brown wavy 6px underline;
+    font-size: 65px;
+    margin: 24px;
+    letter-spacing: 0.138em;
+}
+.digitBox{
+    display: flex;
+    justify-content: center;
+    
+}
+.box1{
+    position: relative;
+    top: 52px;
+    right: 83px;
+    height: 44px;
+    font-size: 23px;
+    text-align: center;
+    width: 170px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+.box2{
+    position: relative;
+    top: 52px;
+    left: 83px;
+    height: 44px;
+    font-size: 22px;
+    text-align: center;
+    width: 186px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+.operators{
+    position: relative;
+    top: 52px;
+    width: 57px;
+    font-size: 35px;
+    border: 3px solid;
+    border-radius: 28px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 102px;
+    height: 44px;
+}
+.btn_calculate{
+    position: relative;
+    right: 35px;
+    width: 102px;
+    font-size: 20px;
+    border: 3px solid wheat;
+    border-radius: 21px;
+    background: #3f3c3c;
+    color: whitesmoke;
+    cursor: pointer;
+    top: 4px;
+}
+/* .text{
+    position: relative;
+    left: 43px;
+    border: 3px solid #0e0e0f;
+    border-radius: 22px;
+    padding: 20px;
+    height: 1px;
+    width: 91px;
+    font-size: 22px;
+    background-color: lightblue; 
+
+}*/
+.change{
+    font-size: 24px;
+    margin: 9px 15px;
+}
+.answer{
+    border: 3px solid black;
+    padding: 6px;
+    background: wheat;
+    border-radius: 9px
+}
+.delete{
+    position: relative;
+    left: 45px;
+    width: 102px;
+    font-size: 20px;
+    border: 3px solid wheat;
+    border-radius: 21px;
+    background: #3f3c3c;
+    color: whitesmoke;
+    cursor: pointer;
+    top: 4px;
+}

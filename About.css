@@ -1,0 +1,20 @@
+@keyframes liner {
+    0%{
+        color:red;
+    }
+    30%{
+        color:rgb(255, 145, 0);
+    }
+    70%{
+        color:rgb(25, 0, 255);
+    }
+    100%{
+        color:rgb(5, 116, 144);
+    }
+    
+}
+
+.anm{
+    animation: liner 2s ease-in infinite;
+    
+}
